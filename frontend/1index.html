@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Process Manager</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        form {
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        input,
+        select,
+        button {
+            display: block;
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #output {
+            margin-top: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f1f1f1;
+            display: none;
+        }
+
+        #output.error {
+            background-color: #f9d6d5;
+            border-color: #e9a0a0;
+        }
+
+        #loading {
+            display: none;
+            margin: 10px 0;
+            font-size: 14px;
+            color: #007bff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Process Manager</h1>
+
+        <!-- Generate Rail Requests Form -->
+        <form id="generateRequestsForm">
+            <h2>Generate Rail Requests</h2>
+            <label for="departureIbnrs">Departure IBNRs (comma-separated):</label>
+            <input type="text" id="departureIbnrs" placeholder="8000105, 8001234" required />
+
+            <label for="arrivalIbnrs">Arrival IBNRs (comma-separated):</label>
+            <input type="text" id="arrivalIbnrs" placeholder="8002549, 8003456" required />
+
+            <label for="startDate">Start Date:</label>
+            <input type="date" id="startDate" required />
+
+            <label for="endDate">End Date:</label>
+            <input type="date" id="endDate" required />
+
+            <label for="travelClass">Travel Class:</label>
+            <input type="text" id="travelClass" placeholder="e.g., 2" required />
+
+            <label for="partnerCode">Partner Code:</label>
+            <input type="text" id="partnerCode" placeholder="e.g., ameropa" required />
+
+            <label for="subdirectoryName">Subdirectory Name:</label>
+            <input type="text" id="subdirectoryName" placeholder="e.g., traffics" required />
+
+            <label for="requestsPerFile">Requests Per File:</label>
+            <input type="number" id="requestsPerFile" placeholder="e.g., 25" required />
+
+            <button type="submit">Generate Requests</button>
+            <div id="loading">Generating requests, please wait...</div>
+        </form>
+
+        <div id="output"></div>
+    </div>
+
+    <script>
+        const baseUrl = "http://topicsdict.eu:3000"; // Replace with your backend URL
+
+        // Generate Rail Requests
+        document.getElementById('generateRequestsForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            // Show loading indicator
+            const loadingIndicator = document.getElementById('loading');
+            loadingIndicator.style.display = 'block';
+
+            // Hide output container
+            const output = document.getElementById('output');
+            output.style.display = 'none';
+            output.className = '';
+            output.textContent = '';
+
+            // Collect form data
+            const departureIbnrs = document.getElementById('departureIbnrs').value
+                .split(',')
+                .map((ibnr) => parseInt(ibnr.trim(), 10));
+            const arrivalIbnrs = document.getElementById('arrivalIbnrs').value
+                .split(',')
+                .map((ibnr) => parseInt(ibnr.trim(), 10));
+            const startDate = document.getElementById('startDate').value;
+            const endDate = document.getElementById('endDate').value;
+            const travelClass = document.getElementById('travelClass').value.trim();
+            const partnerCode = document.getElementById('partnerCode').value.trim();
+            const subdirectoryName = document.getElementById('subdirectoryName').value.trim();
+            const requestsPerFile = parseInt(document.getElementById('requestsPerFile').value, 10);
+
+            // Construct the request payload
+            const payload = {
+                departureIbnrs,
+                arrivalIbnrs,
+                startDate,
+                endDate,
+                travelClass,
+                partnerCode,
+                subdirectoryName,
+                requestsPerFile,
+            };
+
+            try {
+                const response = await fetch(`${baseUrl}/rail-requests`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload),
+                });
+
+                const data = await response.json();
+
+                if (response.ok) {
+                    output.textContent = data.message || 'Requests generated successfully!';
+                    output.style.display = 'block';
+                } else {
+                    throw new Error(data.error || 'An error occurred.');
+                }
+            } catch (error) {
+                output.textContent = `Error: ${error.message}`;
+                output.style.display = 'block';
+                output.className = 'error';
+            } finally {
+                // Hide loading indicator
+                loadingIndicator.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+
+</html>

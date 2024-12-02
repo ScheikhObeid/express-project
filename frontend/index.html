@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Process Manager</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f9;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input,
+        select,
+        button {
+            display: block;
+            width: 100%;
+            margin-top: 5px;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .output {
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            color: #fff;
+            display: none;
+        }
+
+        .output.success {
+            background-color: #28a745;
+        }
+
+        .output.error {
+            background-color: #dc3545;
+        }
+
+        .output.info {
+            background-color: #17a2b8;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #ddd;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Process Manager</h1>
+
+        <!-- Generate Rail Requests -->
+        <form id="generateRequestsForm">
+            <h2>Generate Rail Requests</h2>
+            <label for="departureIbnrs">Departure IBNRs (comma-separated):</label>
+            <input type="text" id="departureIbnrs" placeholder="8000105, 8001234" required />
+
+            <label for="arrivalIbnrs">Arrival IBNRs (comma-separated):</label>
+            <input type="text" id="arrivalIbnrs" placeholder="8002549, 8003456" required />
+
+            <label for="startDate">Start Date:</label>
+            <input type="date" id="startDate" required />
+
+            <label for="endDate">End Date:</label>
+            <input type="date" id="endDate" required />
+
+            <label for="travelClass">Travel Class:</label>
+            <input type="text" id="travelClass" placeholder="e.g., 2" required />
+
+            <label for="partnerCode">Partner Code:</label>
+            <input type="text" id="partnerCode" placeholder="e.g., ameropa" required />
+
+            <label for="subdirectoryName">Subdirectory Name:</label>
+            <input type="text" id="subdirectoryName" placeholder="e.g., traffics" required />
+
+            <label for="requestsPerFile">Requests Per File:</label>
+            <input type="number" id="requestsPerFile" placeholder="e.g., 25" required />
+
+            <button type="submit">Generate Requests</button>
+        </form>
+
+        <!-- Manage Processes -->
+        <div class="section">
+            <h2>Active Processes (Live)</h2>
+            <div id="processList">Fetching active processes...</div>
+        </div>
+
+        <!-- Start Process Form -->
+        <form id="startProcessForm">
+            <h3>Start a Process</h3>
+            <label for="processDirectory">Directory Name:</label>
+            <input type="text" id="processDirectory" placeholder="e.g., traffics" required />
+
+            <label for="processInterval">Interval (in milliseconds):</label>
+            <input type="number" id="processInterval" placeholder="e.g., 5000" required />
+
+            <label for="APIEndpoint">URL:</label>
+            <input type="text" id="APIEndpoint" placeholder="e.g., https://example.de/api/" required />
+
+            <button type="submit">Start Process</button>
+        </form>
+
+        <!-- Stop Process Form -->
+        <form id="stopProcessForm">
+            <h3>Stop a Process</h3>
+            <label for="stopProcessDirectory">Directory Name:</label>
+            <input type="text" id="stopProcessDirectory" placeholder="e.g., traffics" required />
+
+            <button type="submit">Stop Process</button>
+        </form>
+
+        <!-- General Feedback -->
+        <div id="output" class="output"></div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        const baseUrl = "http://topicsdict.eu:3000";
+        const socket = io(); // Connect to Socket.IO
+
+        // Helper: Display messages
+        function displayMessage(type, message) {
+            const output = document.getElementById('output');
+            output.className = `output ${type}`;
+            output.textContent = message;
+            output.style.display = 'block';
+        }
+
+        // Helper: Update live active processes
+        function updateActiveProcesses(processes) {
+            const processList = document.getElementById('processList');
+            if (processes.length === 0) {
+                processList.innerHTML = '<p>No active processes.</p>';
+            } else {
+                processList.innerHTML = `
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Process ID</th>
+                                <th>Response Count</th>
+                                <th>Current File Index</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${processes.map(proc => `
+                                <tr>
+                                    <td>${proc.processId}</td>
+                                    <td>${proc.responseCount || 0}</td>
+                                    <td>${proc.currentFileIndex || 1}</td>
+                                </tr>
+                            `).join('')}
+                        </tbody>
+                    </table>
+                `;
+            }
+        }
+
+        // Socket.IO Live Updates
+        socket.on('activeProcesses', (processes) => {
+            console.log('Active processes:', processes);
+            updateActiveProcesses(processes);
+        });
+
+        // Generate Requests
+        document.getElementById('generateRequestsForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const payload = {
+                departureIbnrs: document.getElementById('departureIbnrs').value.split(',').map(x => x.trim()),
+                arrivalIbnrs: document.getElementById('arrivalIbnrs').value.split(',').map(x => x.trim()),
+                startDate: document.getElementById('startDate').value,
+                endDate: document.getElementById('endDate').value,
+                travelClass: document.getElementById('travelClass').value.trim(),
+                partnerCode: document.getElementById('partnerCode').value.trim(),
+                subdirectoryName: document.getElementById('subdirectoryName').value.trim(),
+                requestsPerFile: parseInt(document.getElementById('requestsPerFile').value, 10),
+            };
+            try {
+                const response = await fetch(`${baseUrl}/rail-requests`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload),
+                });
+                const data = await response.json();
+                if (response.ok) {
+                    displayMessage('success', data.message || 'Requests generated successfully.');
+                } else {
+                    throw new Error(data.error || 'Failed to generate requests.');
+                }
+            } catch (error) {
+                displayMessage('error', error.message);
+            }
+        });
+
+        // Start Process
+        document.getElementById('startProcessForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const payload = {
+                directoryName: document.getElementById('processDirectory').value.trim(),
+                interval: parseInt(document.getElementById('processInterval').value, 10),
+                APIEndpoint: document.getElementById('APIEndpoint').value.trim(),
+
+            };
+            try {
+                const response = await fetch(`${baseUrl}/start`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload),
+                });
+                const data = await response.json();
+                if (response.ok) {
+                    displayMessage('success', data.message || 'Process started successfully.');
+                } else {
+                    throw new Error(data.error || 'Failed to start process.');
+                }
+            } catch (error) {
+                displayMessage('error', error.message);
+            }
+        });
+
+        // Stop Process
+        document.getElementById('stopProcessForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const payload = {
+                directoryName: document.getElementById('stopProcessDirectory').value.trim(),
+            };
+            try {
+                const response = await fetch(`${baseUrl}/stop`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload),
+                });
+                const data = await response.json();
+                if (response.ok) {
+                    displayMessage('success', data.message || 'Process stopped successfully.');
+                } else {
+                    throw new Error(data.error || 'Failed to stop process.');
+                }
+            } catch (error) {
+                displayMessage('error', error.message);
+            }
+        });
+    </script>
+</body>
+
+</html>

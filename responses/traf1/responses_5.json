@@ -1,0 +1,2747 @@
+[
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8000105",
+          "date_time": "2025-01-21T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8002549"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8000105",
+        "date_time": "2025-01-21T00:00:00",
+        "arrival": "8002549"
+      },
+      "timeTaken": 2
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8000105",
+          "date_time": "2025-01-18T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8000107"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8000105",
+        "date_time": "2025-01-18T00:00:00",
+        "arrival": "8000107"
+      },
+      "timeTaken": 2
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8000261",
+          "date_time": "2025-01-23T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8002549"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8000261",
+        "date_time": "2025-01-23T00:00:00",
+        "arrival": "8002549"
+      },
+      "timeTaken": 1
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8000105",
+          "date_time": "2025-01-26T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8000107"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8000105",
+        "date_time": "2025-01-26T00:00:00",
+        "arrival": "8000107"
+      },
+      "timeTaken": 3
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8000261",
+          "date_time": "2025-01-20T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8000107"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8000261",
+        "date_time": "2025-01-20T00:00:00",
+        "arrival": "8000107"
+      },
+      "timeTaken": 2
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8000261",
+          "date_time": "2025-01-26T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8000107"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8000261",
+        "date_time": "2025-01-26T00:00:00",
+        "arrival": "8000107"
+      },
+      "timeTaken": 4
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8000261",
+          "date_time": "2025-01-21T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8002549"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8000261",
+        "date_time": "2025-01-21T00:00:00",
+        "arrival": "8002549"
+      },
+      "timeTaken": 1
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8002549",
+          "date_time": "2025-01-19T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8000105"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8002549",
+        "date_time": "2025-01-19T00:00:00",
+        "arrival": "8000105"
+      },
+      "timeTaken": 2
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8000107",
+          "date_time": "2025-01-24T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8000105"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8000107",
+        "date_time": "2025-01-24T00:00:00",
+        "arrival": "8000105"
+      },
+      "timeTaken": 2
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8000107",
+          "date_time": "2025-01-18T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8000261"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8000107",
+        "date_time": "2025-01-18T00:00:00",
+        "arrival": "8000261"
+      },
+      "timeTaken": 1
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8002549",
+          "date_time": "2025-01-21T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8000261"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8002549",
+        "date_time": "2025-01-21T00:00:00",
+        "arrival": "8000261"
+      },
+      "timeTaken": 1
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8000107",
+          "date_time": "2025-01-16T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8000105"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8000107",
+        "date_time": "2025-01-16T00:00:00",
+        "arrival": "8000105"
+      },
+      "timeTaken": 2
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8000107",
+          "date_time": "2025-01-26T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8000261"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8000107",
+        "date_time": "2025-01-26T00:00:00",
+        "arrival": "8000261"
+      },
+      "timeTaken": 2
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8000105",
+          "date_time": "2025-01-20T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8002549"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8000105",
+        "date_time": "2025-01-20T00:00:00",
+        "arrival": "8002549"
+      },
+      "timeTaken": 2
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8000105",
+          "date_time": "2025-01-25T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8000107"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8000105",
+        "date_time": "2025-01-25T00:00:00",
+        "arrival": "8000107"
+      },
+      "timeTaken": 1
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8000261",
+          "date_time": "2025-01-21T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8002549"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8000261",
+        "date_time": "2025-01-21T00:00:00",
+        "arrival": "8002549"
+      },
+      "timeTaken": 6
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8000105",
+          "date_time": "2025-01-16T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8000107"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8000105",
+        "date_time": "2025-01-16T00:00:00",
+        "arrival": "8000107"
+      },
+      "timeTaken": 3
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8002549",
+          "date_time": "2025-01-19T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8000105"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8002549",
+        "date_time": "2025-01-19T00:00:00",
+        "arrival": "8000105"
+      },
+      "timeTaken": 5
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8000107",
+          "date_time": "2025-01-24T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8000105"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8000107",
+        "date_time": "2025-01-24T00:00:00",
+        "arrival": "8000105"
+      },
+      "timeTaken": 2
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8000107",
+          "date_time": "2025-01-18T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8000261"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8000107",
+        "date_time": "2025-01-18T00:00:00",
+        "arrival": "8000261"
+      },
+      "timeTaken": 1
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8000107",
+          "date_time": "2025-01-26T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8000261"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8000107",
+        "date_time": "2025-01-26T00:00:00",
+        "arrival": "8000261"
+      },
+      "timeTaken": 2
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8000107",
+          "date_time": "2025-01-16T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8000105"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8000107",
+        "date_time": "2025-01-16T00:00:00",
+        "arrival": "8000105"
+      },
+      "timeTaken": 4
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8002549",
+          "date_time": "2025-01-21T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8000261"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8002549",
+        "date_time": "2025-01-21T00:00:00",
+        "arrival": "8000261"
+      },
+      "timeTaken": 3
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8000105",
+          "date_time": "2025-01-20T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8002549"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8000105",
+        "date_time": "2025-01-20T00:00:00",
+        "arrival": "8002549"
+      },
+      "timeTaken": 2
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8000105",
+          "date_time": "2025-01-17T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8000107"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8000105",
+        "date_time": "2025-01-17T00:00:00",
+        "arrival": "8000107"
+      },
+      "timeTaken": 2
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8000107",
+          "date_time": "2025-02-15T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8000105"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8000107",
+        "date_time": "2025-02-15T00:00:00",
+        "arrival": "8000105"
+      },
+      "timeTaken": 2
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8000107",
+          "date_time": "2025-02-06T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8000261"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8000107",
+        "date_time": "2025-02-06T00:00:00",
+        "arrival": "8000261"
+      },
+      "timeTaken": 2
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8000105",
+          "date_time": "2025-02-08T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8002549"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8000105",
+        "date_time": "2025-02-08T00:00:00",
+        "arrival": "8002549"
+      },
+      "timeTaken": 2
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8000261",
+          "date_time": "2025-02-07T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8000107"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8000261",
+        "date_time": "2025-02-07T00:00:00",
+        "arrival": "8000107"
+      },
+      "timeTaken": 2
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8000261",
+          "date_time": "2025-01-30T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8002549"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8000261",
+        "date_time": "2025-01-30T00:00:00",
+        "arrival": "8002549"
+      },
+      "timeTaken": 3
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8002549",
+          "date_time": "2025-02-08T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8000105"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8002549",
+        "date_time": "2025-02-08T00:00:00",
+        "arrival": "8000105"
+      },
+      "timeTaken": 3
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8000107",
+          "date_time": "2025-02-07T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8000261"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8000107",
+        "date_time": "2025-02-07T00:00:00",
+        "arrival": "8000261"
+      },
+      "timeTaken": 1
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8002549",
+          "date_time": "2025-01-30T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8000261"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8002549",
+        "date_time": "2025-01-30T00:00:00",
+        "arrival": "8000261"
+      },
+      "timeTaken": 2
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8000105",
+          "date_time": "2025-02-09T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8002549"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8000105",
+        "date_time": "2025-02-09T00:00:00",
+        "arrival": "8002549"
+      },
+      "timeTaken": 2
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8000261",
+          "date_time": "2025-02-08T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8000107"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8000261",
+        "date_time": "2025-02-08T00:00:00",
+        "arrival": "8000107"
+      },
+      "timeTaken": 2
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8000105",
+          "date_time": "2025-09-05T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8000107"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8000105",
+        "date_time": "2025-09-05T00:00:00",
+        "arrival": "8000107"
+      },
+      "timeTaken": 4
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8000261",
+          "date_time": "2025-08-28T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8000107"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8000261",
+        "date_time": "2025-08-28T00:00:00",
+        "arrival": "8000107"
+      },
+      "timeTaken": 6
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8000105",
+          "date_time": "2025-05-28T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8000107"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8000105",
+        "date_time": "2025-05-28T00:00:00",
+        "arrival": "8000107"
+      },
+      "timeTaken": 3
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8000261",
+          "date_time": "2025-04-04T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8002549"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8000261",
+        "date_time": "2025-04-04T00:00:00",
+        "arrival": "8002549"
+      },
+      "timeTaken": 7
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8000105",
+          "date_time": "2025-07-21T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8002549"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8000105",
+        "date_time": "2025-07-21T00:00:00",
+        "arrival": "8002549"
+      },
+      "timeTaken": 4
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8002549",
+          "date_time": "2025-01-02T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8000105"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8002549",
+        "date_time": "2025-01-02T00:00:00",
+        "arrival": "8000105"
+      },
+      "timeTaken": 4
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8002549",
+          "date_time": "2025-10-21T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8000261"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8002549",
+        "date_time": "2025-10-21T00:00:00",
+        "arrival": "8000261"
+      },
+      "timeTaken": 3
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8002549",
+          "date_time": "2025-07-13T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8000261"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8002549",
+        "date_time": "2025-07-13T00:00:00",
+        "arrival": "8000261"
+      },
+      "timeTaken": 3
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8000107",
+          "date_time": "2025-08-28T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8000261"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8000107",
+        "date_time": "2025-08-28T00:00:00",
+        "arrival": "8000261"
+      },
+      "timeTaken": 2
+    }
+  },
+  {
+    "request": {
+      "url": "https://topicsdict.eu/api/",
+      "requestData": {
+        "partner_code": "ameropa",
+        "agent_code": "9876",
+        "language": "DE",
+        "currency": "EUR",
+        "travel_class": "2",
+        "day_trains_only": false,
+        "night_trains_only": false,
+        "departure": {
+          "ibnr": "8002549",
+          "date_time": "2025-04-12T00:00:00"
+        },
+        "arrival": {
+          "ibnr": "8000105"
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe",
+            "date_of_birth": "1995-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 2,
+            "gender": "M",
+            "first_name": "John",
+            "last_name": "Doe2",
+            "date_of_birth": "1993-01-25",
+            "reduction": "Keine Ermässigung"
+          },
+          {
+            "id": 3,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe3",
+            "date_of_birth": "2016-01-25"
+          },
+          {
+            "id": 4,
+            "gender": "M",
+            "first_name": "Kind",
+            "last_name": "Doe4",
+            "date_of_birth": "2014-01-25"
+          }
+        ]
+      }
+    },
+    "response": {
+      "data": {
+        "departure": "8002549",
+        "date_time": "2025-04-12T00:00:00",
+        "arrival": "8000105"
+      },
+      "timeTaken": 4
+    }
+  }
+]

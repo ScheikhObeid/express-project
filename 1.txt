@@ -1,0 +1,176 @@
+[
+  {
+    "partner_code": "bahn",
+    "agent_code": "1",
+    "language": "EN",
+    "currency": "USD"
+  },
+  {
+    "partner_code": "bahn",
+    "agent_code": "2",
+    "language": "EN",
+    "currency": "USD"
+  },
+  {
+    "partner_code": "ameropa",
+    "agent_code": "3",
+    "language": "DE",
+    "currency": "EUR"
+  },
+  {
+    "partner_code": "ameropa",
+    "agent_code": "4",
+    "language": "DE",
+    "currency": "EUR"
+  },
+  {
+    "partner_code": "ameropa",
+    "agent_code": "5",
+    "language": "DE",
+    "currency": "EUR"
+  },
+  {
+    "partner_code": "ameropa",
+    "agent_code": "6",
+    "language": "DE",
+    "currency": "EUR"
+  },
+  {
+    "partner_code": "ameropa",
+    "agent_code": "7",
+    "language": "DE",
+    "currency": "EUR"
+  },
+  {
+    "partner_code": "ameropa",
+    "agent_code": "8",
+    "language": "DE",
+    "currency": "EUR"
+  },
+  {
+    "partner_code": "ameropa",
+    "agent_code": "9",
+    "language": "DE",
+    "currency": "EUR"
+  },
+  {
+    "partner_code": "bahn",
+    "agent_code": "10",
+    "language": "EN",
+    "currency": "USD"
+  },
+  {
+    "partner_code": "bahn",
+    "agent_code": "11",
+    "language": "EN",
+    "currency": "USD"
+  },
+  {
+    "partner_code": "bahn",
+    "agent_code": "12",
+    "language": "EN",
+    "currency": "USD"
+  },
+  {
+    "partner_code": "ameropa",
+    "agent_code": "13",
+    "language": "DE",
+    "currency": "EUR"
+  },
+  {
+    "partner_code": "ameropa",
+    "agent_code": "14",
+    "language": "DE",
+    "currency": "EUR"
+  },
+  {
+    "partner_code": "ameropa",
+    "agent_code": "15",
+    "language": "DE",
+    "currency": "EUR"
+  },
+  {
+    "partner_code": "ameropa",
+    "agent_code": "16",
+    "language": "DE",
+    "currency": "EUR"
+  },
+  {
+    "partner_code": "ameropa",
+    "agent_code": "17",
+    "language": "DE",
+    "currency": "EUR"
+  },
+  {
+    "partner_code": "ameropa",
+    "agent_code": "18",
+    "language": "DE",
+    "currency": "EUR"
+  },
+  {
+    "partner_code": "ameropa",
+    "agent_code": "19",
+    "language": "DE",
+    "currency": "EUR"
+  },
+  {
+    "partner_code": "bahn",
+    "agent_code": "20",
+    "language": "EN",
+    "currency": "USD"
+  },
+  {
+    "partner_code": "bahn",
+    "agent_code": "21",
+    "language": "EN",
+    "currency": "USD"
+  },
+  {
+    "partner_code": "bahn",
+    "agent_code": "22",
+    "language": "EN",
+    "currency": "USD"
+  },
+  {
+    "partner_code": "ameropa",
+    "agent_code": "23",
+    "language": "DE",
+    "currency": "EUR"
+  },
+  {
+    "partner_code": "ameropa",
+    "agent_code": "24",
+    "language": "DE",
+    "currency": "EUR"
+  },
+  {
+    "partner_code": "ameropa",
+    "agent_code": "25",
+    "language": "DE",
+    "currency": "EUR"
+  },
+  {
+    "partner_code": "ameropa",
+    "agent_code": "26",
+    "language": "DE",
+    "currency": "EUR"
+  },
+  {
+    "partner_code": "ameropa",
+    "agent_code": "27",
+    "language": "DE",
+    "currency": "EUR"
+  },
+  {
+    "partner_code": "ameropa",
+    "agent_code": "28",
+    "language": "DE",
+    "currency": "EUR"
+  },
+  {
+    "partner_code": "ameropa",
+    "agent_code": "29",
+    "language": "DE",
+    "currency": "EUR"
+  }
+]
