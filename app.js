@@ -262,7 +262,7 @@ const processRequestFromFile = async (directoryName, filePath) => {
 // };
 
 // Start a new request loop
-const processFilesSequentially = async (directoryName) => {
+const processFilesSequentially = async (directoryName, interval) => {
     const process = processes[directoryName];
     const processDir = path.join(REQUESTS_DIR, process.processId); // Use processId for directory
 
@@ -284,22 +284,22 @@ const processFilesSequentially = async (directoryName) => {
         return;
     }
 
-    // for (const file of files) {
-    //     const filePath = path.join(processDir, file);
-    //     console.log(`Processing file: ${file}`); // Log the file being processed
+    for (const file of files) {
+        const filePath = path.join(processDir, file);
+        console.log(`Processing file: ${file}`); // Log the file being processed
 
-    //     const processed = await processRequestFromFile(directoryName, filePath);
-    //     if (!processed) {
-    //         console.log(`Skipping file: ${file}`);
-    //     }
-    // }
-   
- 
-    const arr = files.map(file => {     const filePath = path.join(processDir, file);
-    return () => processRequestFromFile(directoryName, filePath); });
-    arr.reduce((promise, fn) => {     return promise.then(() => fn()); }, Promise.resolve());
-    
+        const processed = await processRequestFromFile(directoryName, filePath);
+        
+        if (!processed) {
+            console.log(`Skipping file: ${file}`);
+        }
+
+        await wait(interval);
+    }
 };
+
+const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
 app.post('/start', async (req, res) => {
     const { interval, directoryName, APIEndpoint } = req.body;
 
@@ -331,7 +331,7 @@ app.post('/start', async (req, res) => {
 
     processes[directoryName] = {
         processId: directoryName, // Explicitly store processId
-        intervalId: setInterval(() => processFilesSequentially(directoryName), interval),
+        intervalId: setTimeout(() => processFilesSequentially(directoryName, interval), 1000),
         responseCount: 0,
         currentFileIndex: 1,
     };
